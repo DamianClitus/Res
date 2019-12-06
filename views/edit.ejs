@@ -1,0 +1,35 @@
+<%- include ("./templet/header.ejs") %>
+
+<div class="ui main text container segment">
+	<div class="ui huge header">
+		Edit <%= blog.title %>
+	</div>
+	
+	<form action="/blogs/<%= blog._id %>?_method=PUT" method="POST">
+  <div class="ui form">
+	  
+		
+		<div class="field">
+    <label>Title</label>
+    <input type="test" name=blog[title] value="<%= blog.title %>">
+ 	 </div>
+		
+	<div class="field">
+    <label>Image</label>
+    <input type="test" name=blog[image] placeholder="image" value="<%= blog.image %>">
+  </div>
+		
+  <div class="field">
+    <label>Message:</label>
+    <textarea name=blog[body] ><%= blog.body %></textarea>
+  </div>
+
+  <button class="ui button" type="submit">Submit</button>
+	  </div>
+</form>
+	
+	
+</div>
+
+
+<%- include ("./templet/footer.ejs") %>
