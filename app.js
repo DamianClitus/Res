@@ -1,3 +1,4 @@
+var PORT = process.env.PORT || 3000;
 var express = require("express");
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
@@ -90,6 +91,6 @@ app.delete('/blogs/:id', function(req,res){
 	});
 });
 
-app.listen(process.env.PORT || "3000", function() {
+app.listen(PORT, function() {
   console.log("The server has started...");
 });
