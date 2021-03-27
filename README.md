@@ -15,14 +15,14 @@ https://restful-blogg-appen.herokuapp.com/blogs
 
 Jag har använt HTML, CSS och JavaScript, eftersom de är det populäraste verktyget när det kommer till att skapa websidor. Det är omöjligt att skapa en websida utan att använda JavaScript på något sätt. Tillsammans med HTML och CSS är JavaScript väsentligt för webbutvecklingen. 
 
-Node.js – vi har använt Node.js för vår serversida. 
+Node.js – Jag har använt Node.js för serversida. 
 
-Express.js – Vi har också använt Express.js med Node.js. Express.js är ett JavaScript-ramverk som används för att skapa back-end-servrar. 
+Express.js – Jag har också använt Express.js med Node.js. Express.js är ett JavaScript-ramverk som används för att skapa back-end-servrar. 
 
-MongoDB – vi har använt MongoDB som vår databas.
+MongoDB – Jag har använt MongoDB som databas.
 
 Mongoose – Mongoose används för att koppla ihop Node.js och MongoDB databasen tillsammans.
 
-EJS – Vi har använt EJS för att skapa HTML-markering med vanligt JavaScript.
+EJS – Jag har använt EJS för att skapa HTML-markering med vanligt JavaScript.
 
 body-parser - För att kunna läsa HTTP POST-data måste vi använda "body-parser". body-parser är ett uttryckligt mellanprogram som läser in formulärets input och lagrar det som ett javascriptobjekt som är tillgängligt via ”req.body”.
