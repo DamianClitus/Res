@@ -19,9 +19,9 @@ Node.js – Jag har använt Node.js för serversida.
 
 Express.js – Jag har också använt Express.js med Node.js. Express.js är ett JavaScript-ramverk som används för att skapa back-end-servrar. 
 
-MongoDB – Jag har använt MongoDB som databas.
+MongoDB – Jag har använt MongoDB som Databas.
 
-Mongoose – Mongoose används för att koppla ihop Node.js och MongoDB databasen tillsammans.
+Mongoose – Mongoose används för att koppla ihop Node.js och MongoDB Databasen tillsammans.
 
 EJS – Jag har använt EJS för att skapa HTML-markering med vanligt JavaScript.
 
